@@ -1,0 +1,187 @@
+
+.chat-area .comunication-messages{
+    padding: 10px;
+    padding-top: 5px;
+    display: flex;
+    align-content: center;
+        justify-content: flex-end;
+        position: relative;
+}
+.other{
+    justify-content: flex-start !important;
+}
+.other .colum-message{
+    margin-left: 50px !important;
+}
+.other .colum-message .ballon-container{
+    justify-content: start !important;
+}
+.other .colum-message .ballon-container .tail-ballon{
+    height: 45px;
+    /*border-top: 2px #dadada solid;*/
+    
+    width: 25px;
+    transform: scaleX(-1);
+    background-image: url(../ballon-tail.svg) !important;
+    background-position: unset;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.other .colum-message .ballon-container .ballon-message{
+    border: 2px #ffffffa6 solid !important;
+    margin-left: 27px !important;
+    align-items: flex-start !important;
+    background-color: #bdbdbd !important;
+    border-left:0 !important;
+    border-right: 2px !important;
+}
+.other .colum-message .ballon-container .first{
+    margin-left: 22px !important;
+    padding-left: 12px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 7px !important;
+
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    
+}
+
+.other .colum-profile .photo-background{
+   
+}
+.other .colum-profile .photo-background .photo-location
+{
+    
+}
+
+
+.chat-area .comunication-messages .colum-message{
+    margin-right: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+            .chat-area .comunication-messages .colum-message .ballon-container{
+                display: flex;
+                justify-content: flex-end;
+                position: relative;
+
+            }
+            
+            .chat-area .comunication-messages .colum-message .ballon-container .tail-ballon{
+                height: 45px;
+                /*border-top: 2px #dadada solid;*/
+                width: 25px;
+                background-image: url(../ballon-tail-original.svg);
+                background-position: unset;
+                position: absolute;
+                background-repeat: no-repeat;
+              
+            }
+
+            .chat-area .comunication-messages .colum-message .ballon-container .ballon-message{
+                    background-color: #38b3a6;
+                   border: 2px #ffffff75 solid;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    margin-right: 22px;
+                    display:flex;
+                    flex-flow: column nowrap;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    padding-top: 5px;
+                    padding-bottom: 2px;
+                    padding-right: 5px;
+                    border-right: 0;
+                    border-left: 0;
+                    z-index: 2;
+                }    
+                .first{
+                    margin-left: 0 !important;
+                    padding-left: 30px !important;
+                    border-left: 0 !important;
+                    border-top-right-radius: 0 !important;
+                    border-bottom-right-radius: 7px !important;                    
+                }
+                    .chat-area .comunication-messages .colum-message .ballon-container .ballon-message .message-time{
+                        font-size: 0.6em;
+                        margin: 0;
+                        padding-bottom: 5px;
+                        color: #ffffffbf;
+                        
+                    }
+                    
+                    .chat-area .comunication-messages .colum-message .ballon-container .ballon-message .box-message{
+                                            margin: 0;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: flex-end;
+                                            flex-grow: 1;
+                                            text-align: end;
+                                            margin-right: 5px;
+                                        }
+                                        
+                            .chat-area .comunication-messages .colum-message .ballon-container .ballon-message .box-message .message-text{
+                                font-size: 1em;
+                                margin: 0;
+                                padding-bottom: 5px;
+                                color: #313131;
+                                max-width: 450px;
+                            }
+                            
+        
+                    
+            .chat-area .comunication-messages .colum-profile
+            {
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+            }
+            
+        .chat-area .comunication-messages .colum-profile .photo-background 
+        {
+            padding-top: 0;
+            height: 60px;
+            width: 80px;
+            border-radius: 40px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+            margin-top: 6px;
+            margin-top: 14px;
+          
+        }
+        
+        .chat-area .comunication-messages .colum-profile .photo-background .photo-location 
+        {
+            height: 55px;
+            width: 55px;
+            border-radius: 50%;
+            background-image: url("../perfil.jpg");
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+            z-index: 10;
+        }
+
+        .chat-area .comunication-messages .colum-profile .status-message{
+            font-size: 0.6em;
+            margin: 0;
+            color: #ffffffbf;
+            padding: 5px;
+            padding-top: 2.5px;
+            background-color: #a784842b;
+            border-radius: 2px;
+            max-width: 10ch;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            
+        }
